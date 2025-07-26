@@ -1,0 +1,14 @@
+C:\Users\hello\csLogics\bin\Debug\net9.0\csLogics.exe
+C:\Users\hello\csLogics\bin\Debug\net9.0\csLogics.deps.json
+C:\Users\hello\csLogics\bin\Debug\net9.0\csLogics.runtimeconfig.json
+C:\Users\hello\csLogics\bin\Debug\net9.0\csLogics.dll
+C:\Users\hello\csLogics\bin\Debug\net9.0\csLogics.pdb
+C:\Users\hello\csLogics\obj\Debug\net9.0\csLogics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hello\csLogics\obj\Debug\net9.0\csLogics.AssemblyInfoInputs.cache
+C:\Users\hello\csLogics\obj\Debug\net9.0\csLogics.AssemblyInfo.cs
+C:\Users\hello\csLogics\obj\Debug\net9.0\csLogics.csproj.CoreCompileInputs.cache
+C:\Users\hello\csLogics\obj\Debug\net9.0\csLogics.dll
+C:\Users\hello\csLogics\obj\Debug\net9.0\refint\csLogics.dll
+C:\Users\hello\csLogics\obj\Debug\net9.0\csLogics.pdb
+C:\Users\hello\csLogics\obj\Debug\net9.0\csLogics.genruntimeconfig.cache
+C:\Users\hello\csLogics\obj\Debug\net9.0\ref\csLogics.dll
