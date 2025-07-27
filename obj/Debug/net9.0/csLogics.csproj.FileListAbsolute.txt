@@ -12,3 +12,4 @@ C:\Users\hello\csLogics\obj\Debug\net9.0\refint\csLogics.dll
 C:\Users\hello\csLogics\obj\Debug\net9.0\csLogics.pdb
 C:\Users\hello\csLogics\obj\Debug\net9.0\csLogics.genruntimeconfig.cache
 C:\Users\hello\csLogics\obj\Debug\net9.0\ref\csLogics.dll
+C:\Users\hello\csLogics\obj\Debug\net9.0\csLogics.sourcelink.json
