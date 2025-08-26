@@ -8,17 +8,17 @@ class test
     {
         String s = Console.ReadLine();
         char[] c = s.ToCharArray();
-        int l = 0;
-        int r = s.Length - 1;
-        while (l > r)
+        char rep = '\0';
+        for (int i = 0; i < c.Length; i++)
         {
-            char temp = c[l];  //we cannot change or alocate ne value to string because its immutable
-            c[l] = c[r];
-            c[r] = temp;
-            l++;
-            r--;
+            for (int j = 1; j < c.Length; j++)
+            {
+                if (c[i] != c[j])
+                {
+                    rep = c[i];
+                }
+            }
         }
-        String rev = new string(c);
-        Console.WriteLine(rev);
+        Console.WriteLine(rep);
     }
 }
