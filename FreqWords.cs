@@ -1,8 +1,5 @@
 using System;
-using System.Collections.Generic;
-
-
-class test
+class FreqWords
 {
     static void Main()
     {

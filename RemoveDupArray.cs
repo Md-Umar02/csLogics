@@ -1,6 +1,6 @@
 using System;
 
-public class Solution {
+public class Sol {
     public int RemoveDuplicates(int[] nums) {
         if (nums.Length == 0) return 0;
 
@@ -15,11 +15,16 @@ public class Solution {
     }
 }
 
-class Program {
+class RemoveDupArray {
     static void Main() {
-        int[] nums = { 0,0,1,1,1,2,2,3,3,4 };
+        int n = int.Parse(Console.ReadLine());
+        int[] nums = new int[n];
+        for (int i = 0; i < n; i++)
+        {
+            nums[i] = int.Parse(Console.ReadLine());
+        }
 
-        Solution sol = new Solution();
+        Sol sol = new Sol();
         int k = sol.RemoveDuplicates(nums);
 
         Console.WriteLine("k = " + k);
