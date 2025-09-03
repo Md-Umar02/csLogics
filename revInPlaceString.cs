@@ -6,7 +6,7 @@ class rev
         String s = Console.ReadLine();
         char[] c = s.ToCharArray();
         int left = 0;
-        int right = c.Length;
+        int right = c.Length - 1;
         while (left < right)
         {
             char temp = c[left];
