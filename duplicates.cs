@@ -1,7 +1,8 @@
 using System;
+using System.Dynamic;
 class duplicates
 {
-    static void ain()
+    static void Main()
     {
         int n = int.Parse(Console.ReadLine());
         int[] arr = new int[n];
@@ -9,25 +10,29 @@ class duplicates
         {
             arr[i] = int.Parse(Console.ReadLine());
         }
-        Console.WriteLine("Duplicates");
-        dup(arr);
+        GetDup(arr);
     }
-    static void dup(int[] arr)
+    static void GetDup(int[] a)
     {
-        for (int i = 0; i < arr.Length; i++)
+        for (int i = 0; i < a.Length; i++)
         {
-            bool isDup = false;
-            for (int j = 0; j < i; j++)
+            bool exist = false;
+            for (int k = 0; k < i; k++) // chk wheter element occured before to print duplicate one time
             {
-                if (arr[i] == arr[j])
+                if (a[k] == a[i])
                 {
-                    isDup = true;
+                    exist = true;
                     break;
                 }
             }
-            if (!isDup)
+            if (exist) continue;
+            for (int j = i + 1; j < a.Length; j++)
             {
-                Console.Write(arr[i]);
+                if (a[i] == a[j])
+                {
+                    Console.WriteLine(a[i]);
+                    break;
+                }
             }
         }
     }

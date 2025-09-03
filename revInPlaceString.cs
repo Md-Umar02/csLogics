@@ -1,5 +1,5 @@
 using System;
-class Test
+class rev
 {
     static void Main()
     {
